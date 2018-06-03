@@ -111,11 +111,12 @@ My final model results were:
 
 If an iterative approach was chosen:
 * What was the first architecture that was tried and why was it chosen?
-  * I started from the LeNet-5 because 1) it is reported that LeNet-5 can achieve 0.89 accuracy on validation set which in my opinion a good starting point 2) based on my experiment, LeNet-5 can achieve 0.99 accuracy on training set which demonstrates that LeNet-5 is a low-bias model. By considering 1) and 2), it is possible to improve LeNet-5's performance on validation set (to the required 0.93) by adding regularity into the architecture (L1/L2 norm or dropout).
+  
+  I started from the LeNet-5 because 1) it is reported that LeNet-5 can achieve 0.89 accuracy on validation set which in my opinion a good starting point 2) based on my experiment, LeNet-5 can achieve 0.99 accuracy on training set which demonstrates that LeNet-5 is a low-bias model. By considering 1) and 2), it is possible to improve LeNet-5's performance on validation set (to the required 0.93) by adding regularity into the architecture (L1/L2 norm or dropout).
 
 * What were some problems with the initial architecture?
 
-As mentioned above, based on my experiment (see plot below), LeNet-5 suffers from high variance. We have to reduce the variance. 
+  As mentioned above, based on my experiment (see plot below), LeNet-5 suffers from high variance. We have to reduce the variance. 
 
 
 
