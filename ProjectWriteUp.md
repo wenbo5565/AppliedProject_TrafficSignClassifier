@@ -111,15 +111,19 @@ My final model results were:
 
 If an iterative approach was chosen:
 * What was the first architecture that was tried and why was it chosen?
+  * I started from the LeNet-5 because 1) it is reported that LeNet-5 can achieve 0.89 accuracy on validation set which in my opinion a good starting point 2) based on my experiment, LeNet-5 can achieve 0.99 accuracy on training set which demonstrates that LeNet-5 is a low-bias model. By considering 1) and 2), it is possible to improve LeNet-5's performance on validation set (to the required 0.93) by adding regularity into the architecture (L1/L2 norm or dropout).
+
 * What were some problems with the initial architecture?
+
+As mentioned above, based on my experiment (see plot below), LeNet-5 suffers from high variance. We have to reduce the variance. 
+
+
+
 * How was the architecture adjusted and why was it adjusted? Typical adjustments could include choosing a different model architecture, adding or taking away layers (pooling, dropout, convolution, etc), using an activation function or changing the activation function. One common justification for adjusting an architecture would be due to overfitting or underfitting. A high accuracy on the training set but low accuracy on the validation set indicates over fitting; a low accuracy on both sets indicates under fitting.
 * Which parameters were tuned? How were they adjusted and why?
 * What are some of the important design choices and why were they chosen? For example, why might a convolution layer work well with this problem? How might a dropout layer help with creating a successful model?
 
-If a well known architecture was chosen:
-* What architecture was chosen?
-* Why did you believe it would be relevant to the traffic sign application?
-* How does the final model's accuracy on the training, validation and test set provide evidence that the model is working well?
+
  
 
 ### Test a Model on New Images
