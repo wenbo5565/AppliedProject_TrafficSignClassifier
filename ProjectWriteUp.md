@@ -19,8 +19,8 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./imagefile/image1.png "Training Accuracy"
-[image2]: ./examples/grayscale.jpg "Grayscaling"
+[image1]: ./ImageFile/image1.png "LeNet5-Accuracy"
+[image2]: ./ImageFile/image2.jpg "LeNet5-Loss"
 [image3]: ./examples/random_noise.jpg "Random Noise"
 [image4]: ./examples/placeholder.png "Traffic Sign 1"
 [image5]: ./examples/placeholder.png "Traffic Sign 2"
