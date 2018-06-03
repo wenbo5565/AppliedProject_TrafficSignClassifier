@@ -118,8 +118,9 @@ If an iterative approach was chosen:
 
   As mentioned above, based on my experiment (see plot below), LeNet-5 suffers from high variance. We have to reduce the variance. 
 
-  [image1]
-  [image2]
+  ![][image1]
+  
+  ![][image2]
 
 
 * How was the architecture adjusted and why was it adjusted? Typical adjustments could include choosing a different model architecture, adding or taking away layers (pooling, dropout, convolution, etc), using an activation function or changing the activation function. One common justification for adjusting an architecture would be due to overfitting or underfitting. A high accuracy on the training set but low accuracy on the validation set indicates over fitting; a low accuracy on both sets indicates under fitting.
