@@ -4,7 +4,7 @@
 
 ### Overview
 
-In this project, we leverage convolutional neural network to build a traffic sign classifier which can be used to recoginize traffic signs for self-driving/autonomous cars.
+In this project, I leverage convolutional neural network to build a traffic sign classifier which can be used to recoginize traffic signs for self-driving/autonomous cars.
 
 The goals / steps of this project are as follows:
 * Load the data set [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset)
