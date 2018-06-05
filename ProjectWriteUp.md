@@ -1,13 +1,13 @@
-# **Traffic Sign Recognition** 
-
-## Writeup
+# **Project - Traffic Sign Recognition WriteUp** 
 
 ---
 
-**Build a Traffic Sign Recognition Project**
+### Overview
 
-The goals / steps of this project are the following:
-* Load the data set (see below for links to the project data set)
+In this project, we leverage convolutional neural network to build a traffic sign classifier which can be used to recoginize traffic signs for self-driving/autonomous cars.
+
+The goals / steps of this project are as follows:
+* Load the data set [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset)
 * Explore, summarize and visualize the data set
 * Design, train and test a model architecture
 * Use the model to make predictions on new images
