@@ -24,7 +24,7 @@ The goals / steps of this project are as follows:
 [image5]: ./ImageFile/img5.png "Bar-Test"
 [image6]: ./ImageFile/img6.png "Original"
 [image7]: ./ImageFile/img7.png "Normalized"
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
+[image8]: ./ImageFile/img8.png "Result"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -166,7 +166,9 @@ If an iterative approach was chosen:
 * **Which parameters were tuned? How were they adjusted and why?**
 
   L1 coefficient is tuned based on bias-variance tradeoff shown in the graph
-
+  
+  ![][image8]
+   
 * **What are some of the important design choices and why were they chosen? For example, why might a convolution layer work well with this problem? How might a dropout layer help with creating a successful model?**
 
   Same as question above, the important design choices are
