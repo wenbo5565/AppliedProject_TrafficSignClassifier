@@ -65,11 +65,11 @@ signs data set:
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
 
-![3][img3]
+![3][image3]
 
-![4][img4]
+![4][image4]
 
-![5][img5]
+![5][image5]
 
 ### Design and Test a Model Architecture
 
