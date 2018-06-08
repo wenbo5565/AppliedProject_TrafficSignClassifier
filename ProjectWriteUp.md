@@ -88,9 +88,13 @@ This normalization makes each pixel has value between 0-1. The reason to apply t
 
 Here is an example of the original traffic sign and the normalized ones:
 
+Original
+
 ![Original][image6]
 
-![Normalized[image7]
+Normalized
+
+![Normalized][image7]
 
  
 
