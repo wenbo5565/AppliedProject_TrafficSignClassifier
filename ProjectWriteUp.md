@@ -113,17 +113,27 @@ My final model consisted of the following layers:
 | RELU					|												|
 | Max pooling	      	| 2x2 stride,  outputs 5x5x16 				|
 | Flattened		| 14x14x6 + 5x5x16 (low level convolution + high level convolution)|
-| Fully Connected |                             |
-| Fully Connected |                             |
-| Softmax				| etc.        									|
-|						|												|
-|						|												|
- 
+| Fully Connected |             120                |
+| Fully Connected |             84             |
+| Softmax				| 43								|
 
+In addition to the network architecture above, please note the following as well
+
+  * The (data) loss function is cross-entropy because this is a classification problem.
+  * L1 loss is added to the data loss. The final loss function is data loss plus L1 loss
+  
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
-To train the model, I used an ....
+The parameters related to training is as follows:
+
+  * Optimizer: Adam
+  * Batch size: 256
+  * Number of Epochs : 150
+  * Learning Rate: 0.01
+  * Regularization Coefficient(L1): 0.00022
+
+Most optimizer, batch size and learning rate above are not well tuned. The default value is from my previous experience training neural network. The number of epochs is obtained in a heuristic way by checking training-validation accuracy graph. The L1 coefficient is obtained through validation.
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
