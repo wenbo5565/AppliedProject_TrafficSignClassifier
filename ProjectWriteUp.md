@@ -97,7 +97,7 @@ Normalized
 ![Normalized][image7]
 
  
-
+In addition, I also tried convert the color image to grayscale image but this doesn't improve model's performance.
 
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
@@ -106,11 +106,15 @@ My final model consisted of the following layers:
 | Layer         		|     Description	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | Input         		| 32x32x3 RGB image   							| 
-| Convolution 3x3     	| 1x1 stride, same padding, outputs 32x32x64 	|
+| Convolution 5x5     	| 1x1 stride, valid padding, outputs 28x28x6 	|
 | RELU					|												|
-| Max pooling	      	| 2x2 stride,  outputs 16x16x64 				|
-| Convolution 3x3	    | etc.      									|
-| Fully connected		| etc.        									|
+| Max pooling	      	| 2x2 stride,  outputs 14x14x6 				|
+| Convolution 5x5	    | 1x1 stride,  outputs 10x10x16   		|
+| RELU					|												|
+| Max pooling	      	| 2x2 stride,  outputs 5x5x16 				|
+| Flattened		| 14x14x6 + 5x5x16 (low level convolution + high level convolution)|
+| Fully Connected |                             |
+| Fully Connected |                             |
 | Softmax				| etc.        									|
 |						|												|
 |						|												|
