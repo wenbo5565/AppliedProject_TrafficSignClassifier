@@ -63,13 +63,17 @@ signs data set:
 
 #### 2. Include an exploratory visualization of the dataset.
 
-Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
+Here is an exploratory visualization of the data set.
+
+The bar charts below show the frequecy of each traffic sign class among the training, validation and test sets.
 
 ![3][image3]
 
 ![4][image4]
 
 ![5][image5]
+
+From the charts above, we can see that the traffic sign class distributes similarly among the three datasets.
 
 ### Design and Test a Model Architecture
 
