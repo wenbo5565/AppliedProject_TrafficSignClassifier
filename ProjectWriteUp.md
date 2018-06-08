@@ -49,6 +49,8 @@ signs data set:
   
 * The size of the validation set is ?
 
+  4410
+
 * The size of test set is ?
 
   12630
@@ -131,7 +133,7 @@ The parameters related to training is as follows:
   * Batch size: 256
   * Number of Epochs : 150
   * Learning Rate: 0.01
-  * Regularization Coefficient(L1): 0.00022
+  * Regularization Coefficient(L1): 0.000205
 
 Most optimizer, batch size and learning rate above are not well tuned. The default value is from my previous experience training neural network. The number of epochs is obtained in a heuristic way by checking training-validation accuracy graph. The L1 coefficient is obtained through validation.
 
@@ -139,8 +141,8 @@ Most optimizer, batch size and learning rate above are not well tuned. The defau
 
 My final model results were:
 * training set accuracy of ? 0.98
-* validation set accuracy of ? 0.93
-* test set accuracy of ?
+* validation set accuracy of ? 0.94
+* test set accuracy of ? 0.93
 
 If an iterative approach was chosen:
 * **What was the first architecture that was tried and why was it chosen?**
