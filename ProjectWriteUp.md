@@ -158,9 +158,23 @@ If an iterative approach was chosen:
 
 * **How was the architecture adjusted and why was it adjusted? Typical adjustments could include choosing a different model architecture, adding or taking away layers (pooling, dropout, convolution, etc), using an activation function or changing the activation function. One common justification for adjusting an architecture would be due to overfitting or underfitting. A high accuracy on the training set but low accuracy on the validation set indicates over fitting; a low accuracy on both sets indicates under fitting.**
 
+  The initial architecture is adjusted in the following two important aspects:
+    * The first fully-connected layer in LeNet-5 is only connected to the second convolution layer (high level features). In my model,         The first fully-connected layer is also connected to the first convolution layer (low level features). This architecture is used         because LeNet-5 isn't powerful enough to obtain a 0.93 or higher validation accuracy and it is reported by Yann Lecun that      combining low and high level feature leads to a more powerful network.
+    
+    * L1 regularization term is introduced in the network to decrease the variance hence increase validation accuracy
+
 * **Which parameters were tuned? How were they adjusted and why?**
 
+  L1 coefficient is tuned based on bias-variance tradeoff shown in the graph
+
 * **What are some of the important design choices and why were they chosen? For example, why might a convolution layer work well with this problem? How might a dropout layer help with creating a successful model?**
+
+  Same as question above, the important design choices are
+  
+  * The first fully-connected layer in LeNet-5 is only connected to the second convolution layer (high level features). In my model,         The first fully-connected layer is also connected to the first convolution layer (low level features). This architecture is used         because LeNet-5 isn't powerful enough to obtain a 0.93 or higher validation accuracy and it is reported by Yann Lecun that      combining low and high level feature leads to a more powerful network.
+    
+   * L1 regularization term is introduced in the network to decrease the variance hence increase validation accuracy
+
 
 
  
