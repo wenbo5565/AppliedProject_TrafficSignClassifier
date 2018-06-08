@@ -19,9 +19,9 @@ The goals / steps of this project are as follows:
 
 [image1]: ./ImageFile/image1.png "LeNet5-Accuracy"
 [image2]: ./ImageFile/image2.png "LeNet5-Loss"
-[image3]: ./examples/random_noise.jpg "Random Noise"
-[image4]: ./examples/placeholder.png "Traffic Sign 1"
-[image5]: ./examples/placeholder.png "Traffic Sign 2"
+[image3]: ./ImageFile/img3.png "Bar-Train"
+[image4]: ./ImageFile/img4.png "Bar-Valid"
+[image5]: ./ImageFile/img5.png "Bar-Test"
 [image6]: ./examples/placeholder.png "Traffic Sign 3"
 [image7]: ./examples/placeholder.png "Traffic Sign 4"
 [image8]: ./examples/placeholder.png "Traffic Sign 5"
@@ -65,7 +65,11 @@ signs data set:
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
 
-![alt text][image1]
+![3][img3]
+
+![4][img4]
+
+![5][img5]
 
 ### Design and Test a Model Architecture
 
