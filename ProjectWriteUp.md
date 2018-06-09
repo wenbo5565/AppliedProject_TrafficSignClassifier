@@ -198,7 +198,7 @@ Here are five German traffic signs that I found on the web:
 
 * Difficulty
 
-![alt text][2] 
+![alt text][2]{:height="36px" width="36px"}
 
 * Difficulty
 
