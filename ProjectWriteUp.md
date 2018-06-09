@@ -25,7 +25,7 @@ The goals / steps of this project are as follows:
 [image6]: ./ImageFile/img6.png "Original"
 [image7]: ./ImageFile/img7.png "Normalized"
 [image8]: ./ImageFile/img8.png "Result"
-[1]: ./ImageFile/1.jpg "Test-1"
+[1]: ./ImageFile/1.jpg=50*50 "Test-1"
 [2]: ./ImageFile/2.jpg "Test-2"
 [3]: ./ImageFile/3.jpg "Test-3"
 [4]: ./ImageFile/4.jpg "Test-4"
