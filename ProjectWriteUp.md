@@ -197,22 +197,31 @@ Here are five German traffic signs that I found on the web:
 ![alt text][1]
 
 * Difficulty
+  * The stop sign isn't facing directly toward the camera (tangential distortion)
+  
 
-![alt text][2]{:height="36px" width="36px"}
+![alt text][2]
 
 * Difficulty
+  * Tangential distortion
+  * Watermark on the image
 
 ![alt text][3] 
 
 * Difficulty
+  * The stop sign only takes small portion of the whole image
+
 
 ![alt text][4]
+  * Watermark
+  * The background buildings look like connected to the sign
 
 * Difficulty
 
 ![alt text][5]
 
 * Difficulty
+  * Too much background objects
 
 The first image might be difficult to classify because ...
 
