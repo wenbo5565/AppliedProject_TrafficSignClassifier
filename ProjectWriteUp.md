@@ -25,11 +25,11 @@ The goals / steps of this project are as follows:
 [image6]: ./ImageFile/img6.png "Original"
 [image7]: ./ImageFile/img7.png "Normalized"
 [image8]: ./ImageFile/img8.png "Result"
-[1]: ./ImageFile/1.png "Test-1"
-[2]: ./ImageFile/2.png "Test-2"
-[3]: ./ImageFile/3.png "Test-3"
-[4]: ./ImageFile/4.png "Test-4"
-[5]: ./ImageFile/5.png "Test-5"
+[1]: ./ImageFile/1.jpg "Test-1"
+[2]: ./ImageFile/2.jpg "Test-2"
+[3]: ./ImageFile/3.jpg "Test-3"
+[4]: ./ImageFile/4.jpg "Test-4"
+[5]: ./ImageFile/5.jpg "Test-5"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
