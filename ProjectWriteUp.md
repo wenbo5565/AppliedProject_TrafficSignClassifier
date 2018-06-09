@@ -25,6 +25,11 @@ The goals / steps of this project are as follows:
 [image6]: ./ImageFile/img6.png "Original"
 [image7]: ./ImageFile/img7.png "Normalized"
 [image8]: ./ImageFile/img8.png "Result"
+[1]: ./ImageFile/1.png "Test-1"
+[2]: ./ImageFile/2.png "Test-2"
+[3]: ./ImageFile/3.png "Test-3"
+[4]: ./ImageFile/4.png "Test-4"
+[5]: ./ImageFile/5.png "Test-5"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -189,8 +194,25 @@ If an iterative approach was chosen:
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+![alt text][1]
+
+* Difficulty
+
+![alt text][2] 
+
+* Difficulty
+
+![alt text][3] 
+
+* Difficulty
+
+![alt text][4]
+
+* Difficulty
+
+![alt text][5]
+
+* Difficulty
 
 The first image might be difficult to classify because ...
 
