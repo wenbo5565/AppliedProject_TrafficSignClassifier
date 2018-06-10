@@ -281,7 +281,7 @@ For the fourth image, the model is pretty sure the sign is slippery road . Howev
 | .0	      			| 	Wild animals crossing
 | .0				    |     Dangerous curve to the right 							|
 
-For the fifth image, the model is pretty sure the sign is End of all speed and passing limits . However, the true sign is speed limit (50km). The top five prediction include speed limit sign but with wrong speed value.
+For the fifth image, the model is pretty sure the sign is slippery road . However, the true sign is no passing. The top five prediction doesn't include the correct sign.
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
