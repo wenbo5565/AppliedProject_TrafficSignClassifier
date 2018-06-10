@@ -25,8 +25,8 @@ The goals / steps of this project are as follows:
 [image6]: ./ImageFile/img6.png "Original"
 [image7]: ./ImageFile/img7.png "Normalized"
 [image8]: ./ImageFile/img8.png "Result"
-[1]: ./ImageFile/1.jpg =50x50 "Test-1"
-[2]: ./ImageFile/2.jpg =50x50 "Test-2"
+[1]: ./ImageFile/1.jpg "Test-1"
+[2]: ./ImageFile/2.jpg "Test-2"
 [3]: ./ImageFile/3.jpg "Test-3"
 [4]: ./ImageFile/4.jpg "Test-4"
 [5]: ./ImageFile/5.jpg "Test-5"
@@ -194,13 +194,13 @@ If an iterative approach was chosen:
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][1]
+<img src="./ImageFile/1.jpg" width="30" height="30">
 
 * Difficulty
   * The stop sign isn't facing directly toward the camera (tangential distortion)
   
 
-![alt text][2]
+<img src="./ImageFile/2.jpg" width="30" height="30">
 
 * Difficulty
   * Tangential distortion
