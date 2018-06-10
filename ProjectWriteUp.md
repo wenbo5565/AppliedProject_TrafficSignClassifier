@@ -271,6 +271,26 @@ For the third image, the model is pretty sure the sign is End of all speed and p
 | .0	      			| 	End of speed limit (80km/h)
 | .0				    | Roundabout mandatory     							|
 
+For the fourth image, the model is pretty sure the sign is End of all speed and passing limits . However, the true sign is speed limit (50km). The top five prediction include speed limit sign but with wrong speed value.
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| .74         			| Slippery road  
+| .25     				| Road work
+| .0					| Right-of-way at the next intersection								
+| .0	      			| 	Wild animals crossing
+| .0				    |     Dangerous curve to the right 							|
+
+For the fifth image, the model is pretty sure the sign is End of all speed and passing limits . However, the true sign is speed limit (50km). The top five prediction include speed limit sign but with wrong speed value.
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| .74         			| End of all speed and passing limits  
+| .25     				| Speed limit (30km/h) 
+| .0					| End of no passing											
+| .0	      			| 	End of speed limit (80km/h)
+| .0				    | Roundabout mandatory     							|
+
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
 
