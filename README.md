@@ -12,7 +12,7 @@ Submission File Link:
 
 ========================================
 Please ignore the following
-========================================
+
 
 This repository contains all codes and write-up for my project - Classifying Traffic Sign with Deep Neural Network
 
