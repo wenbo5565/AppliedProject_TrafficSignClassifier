@@ -194,13 +194,13 @@ If an iterative approach was chosen:
 
 Here are five German traffic signs that I found on the web:
 
-<img src="./ImageFile/1.jpg" width="300" height="300">
+<img src="./ImageFile/1.jpg" width="300" height="150">
 
 * Difficulty
   * The stop sign isn't facing directly toward the camera (tangential distortion)
   
 
-<img src="./ImageFile/2.jpg" width="300" height="300">
+<img src="./ImageFile/2.jpg" width="300" height="150">
 
 * Difficulty
   * Tangential distortion
