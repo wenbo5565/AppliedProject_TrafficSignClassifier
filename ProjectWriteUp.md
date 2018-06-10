@@ -244,14 +244,14 @@ The model was able to correctly guess 0 of the 5 traffic signs, which gives an a
 
 The code for making predictions on my final model is located in the 18th-23rd cell of the Ipython notebook.
 
-For the first image, the model is relatively sure the sign among Speed Limit (60km), Bumpy Road or Stop sign. However, the true sign is speed limit (50km). The model makes wrong prediction. The top five soft max probabilities were
+For the first image, the model is relatively sure the sign among Speed Limit (60km), Bumpy Road or Stop sign. However, the true sign is stop sign. The model makes wrong prediction but the top three includes the correct sign. The top five soft max probabilities were
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| .22         			| Speed Limit(60km)   									| 
-| .21     				| Bumpy Road										|
-| .16					| Stop											|
-| .10	      			| 	Dangerous curve to the right
+| .22         			| Speed Limit(60km)   									 
+| .21     				| Bumpy Road										
+| .16					| Stop											
+| .10	      			| 	Dangerous curve to the right  
 | .08				    | Yield      							|
 
 
@@ -259,16 +259,17 @@ For the second image, the model is 100% sure the sign is slippery sign. However,
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| 1         			| Slippery road
+| 1         			| Slippery road |
 
+For the third image, the model is pretty sure the sign is End of all speed and passing limits . However, the true sign is speed limit (50km). The top five prediction include speed limit sign but with wrong speed value.
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| .22         			| Speed Limit(60km)   									| 
-| .21     				| Bumpy Road										|
-| .16					| Stop											|
-| .10	      			| 	Dangerous curve to the right
-| .08				    | Yield      							|
+| .97         			| End of all speed and passing limits  
+| .01     				| Speed limit (30km/h) 
+| .01					| End of no passing											
+| .0	      			| 	End of speed limit (80km/h)
+| .0				    | Roundabout mandatory     							|
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
